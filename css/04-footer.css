@@ -1,1 +1,39 @@
 /* PHASE 4: Footer */
+
+.footer {
+
+
+}
+
+.footer-nav {
+  margin: 0 auto;
+  background: white;
+  width: 898px;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  color: #aaa;
+  border-bottom: #aaa 1px solid;
+  border-left: #aaa 1px solid;
+  border-right: #aaa 1px solid;
+
+}
+
+.footer-list li, .footer-year {
+  padding: 20px 15px;
+}
+
+.footer-year {
+  float: left;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  float: left;
+}
+
+.footer-list li:hover {
+  color: black;
+}

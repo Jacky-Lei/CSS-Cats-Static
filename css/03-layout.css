@@ -12,7 +12,7 @@
   width: 1px;
   position: absolute;
   left: 235px;
-  top: 0px;
+  top: 225px;
   bottom: 0px;
   background: #aaa;
 }
@@ -23,7 +23,41 @@
   background: #aaa;
 }
 
-.content * {
+.content-header {
+  background-image: url("../../shared/img/cats.jpg");
+  height: 225px;
+  background-size: cover;
+  position: relative;
+}
+
+.content-header a{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px;
+  background: white;
+  border: black 1px solid;
+  margin: 10px;
+  font-size: large;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.content-header a:hover {
+  background: cornflowerblue;
+}
+
+.content-title {
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  left: 235px;
+  bottom: 0px;
+  padding: 10px 0;
+  text-shadow: 1px 1px black;
+}
+
+.content-sidebar, .content-main {
   display: block;
   min-height: 200px;
   padding: 25px 25px;
